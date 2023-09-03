@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Расписание</title>
+<style>
+body {
+  background-color: #f7f7f7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  background-color: #3B3D4C;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 50px 0;
+  color: #75788D;
+  text-shadow: 92px 2px #000;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 800px;    
+  margin: 0 auto;
+  background-color: #444653;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: all 0.3s ease;
+  color: #BBBDC9;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  vertical-align: top;
+  color: #BBBDC9;
+  font-weight: 500;
+}
+
+th {
+  background-color: #656773;
+  color: #F7F8FD;
+}
+
+th:hover {
+  text-shadow: none;
+}
+
+td:hover {
+  text-shadow: none;
+}
+
+/* Стиль для точек */
+table td br::after {
+  content: ".";
+  font-weight: bold;
+}
+
+@media (max-width:768px) {
+  h1 {
+    font-size:32px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+
+  table {
+    font-size:14px;
+    max-width:none;
+  }
+
+  th,
+  td {
+    padding-left:5px;
+    padding-right:5px;
+  }
+}
+
+</style>
+</head>
+<body>
+<table>
+<tr>
+<th>День</th>
+<th>Предметы</th>
+<th>Время</th>
+</tr>
+<tr>
+<td>Понедельник</td>
+<td>Разговор о важном.<br>Русский.<br>География.<br>Алгебра.<br>Вероятность и статистика.<br>Биология.<br>Литература.</td>
+<td>13:05-19:00</td>
+</tr>
+<tr>
+<td>Вторник</td>
+<td>Английский.<br>Финансовая грамотность.<br>Физика.<br>Литература.<br>История.<br>Русский.<br>Геометрия.</td>
+<td>14:05-19:00</td>
+</tr>
+<tr>
+<td>Среда</td>
+<td>Музыка.<br>Алгебра.<br>География.<br>ОБЖ.<br>Английский.<br>Информатика.<br>Общество знание.</td>
+<td>13:05-19:00</td>
+</tr>
+<tr>
+<td>Четверг</td>
+<td>Россия и мои горизонты.<br>Химия.<br>Физика.<br>Физра.<br>Английский.<br>Вероятность и статистика.<br>Геометрия.<br>История.</td>
+<td>12:15-19:00</td>
+</tr>
+<tr>
+<td>Пятница</td>
+<td>Биология.<br>Алгебра.<br>Химия.<br>Русский.<br>Литература.<br>Физра.<br>Технология.</td>
+<td>13:05-19:00</td>
+</tr>
+</table>
+</body>
+</html>
